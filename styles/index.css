@@ -4,6 +4,9 @@ body {
   max-height: 100vh;
   max-height: 100vh; }
 
+a, a:hover, a:active, a:default {
+  text-decoration: none; }
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +22,10 @@ body {
   max-height: 100vh; }
   #profCol h4 {
     font-family: Galada, cursive; }
+  #profCol #button {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    margin: 5px 0px 5px 0px; }
 
 #profileImg {
   width: 70%;
@@ -30,13 +37,19 @@ body {
 #mainContent {
   max-height: 100vh;
   overflow: auto; }
-  #mainContent h3 {
+  #mainContent h2 {
     font-family: Galada, cursive; }
-  #mainContent h5 {
+  #mainContent h4 {
     font-family: Anton, sans-serif; }
 
 #content p {
   margin-left: 5px; }
+
+#one b {
+  font-family: Anton, sans-serif; }
+
+#two #linkedin {
+  font-family: Galada, cursive; }
 
 #one, #three {
   background-color: #FFF9FB;
