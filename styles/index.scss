@@ -1,0 +1,68 @@
+@import '_variables.scss';
+
+body {
+  background-color: #FFF9FB;
+  font-family: $body;
+  max-height: 100vh;
+max-height: 100vh; }
+
+  .flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100vh;  /*or use calc(100vh - header_height)*/
+}
+
+#profCol {
+  // background-image: url('../assets/images/dotsbg.jpg');
+  background-color: $red;
+  z-index: 2;
+  -webkit-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
+  box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
+  max-height: 100vh;
+  h4 {
+    font-family: $header;
+  }
+}
+
+#profileImg {
+  width: 70%;
+  height: auto;
+  margin-top: 40px;
+  border: 5px solid #000000;
+  align: center;
+ }
+
+ #mainContent {
+   max-height: 100vh;
+   overflow: auto;
+   h3 {
+     font-family: $header;
+   }
+   h5 {
+     font-family: $title;
+   }
+ }
+
+#content {
+  p {
+    margin-left: 5px;
+  }
+}
+
+#one, #three {
+  background-color: #FFF9FB;
+  padding: 15px;
+}
+
+#two, #four {
+  padding: 15px;
+  background-color: $blue;
+  -webkit-box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.75);
+}
+
+#mockUps {
+  width: 100%;
+}
