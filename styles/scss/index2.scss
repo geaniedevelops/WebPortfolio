@@ -1,37 +1,30 @@
-@import '_variables.scss';
+@import './_variables2.scss';
 
 body {
   background-color: #FFF9FB;
-  font-family: $body;
-  max-height: 100vh;
-max-height: 100vh; }
+  font-family: $monospace;
+  min-height: 100vh;
+  max-height: 100vh; }
 
 a, a:hover, a:active, a:default {
   text-decoration: none;
   color: black;
 }
 
-  .flex {
-  display: flex;
-  flex-wrap: wrap;
-  max-height: 100vh;  /*or use calc(100vh - header_height)*/
-}
-
 #profCol {
   // background-image: url('../assets/images/dotsbg.jpg');
-  background-color: $red;
+  background-color: $grey;
   z-index: 2;
-  max-height: 100vh;
+  min-height: 100vh;
   h3 {
-    font-family: $header;
+    font-family: $eightbit;
   }
   #button {
     background-color: rgba(255,255,255,.6);
     width: 100%;
     margin: 5px 0px 5px 0px;
-  }
 }
-
+}
 #profileImg {
   width: 70%;
   height: auto;
@@ -43,41 +36,49 @@ a, a:hover, a:active, a:default {
  #mainContent {
    max-height: 100vh;
    overflow: auto;
-   h2 {
-     font-family: $header;
-     background-color: green;
+   h3 {
+     font-family: $eightbit;
+     background-color: $pink;
      padding-top: 10px;
      padding-left: 10px;
    }
-   h4 {
-     font-family: $title;
-   }
  }
-
-#content {
-  p {
-    margin-left: 5px;
-  }
-}
-
-#one {
-  b {
-    font-family: $title;
-  }
-}
 
 #two {
   #linkedin {
-    font-family: $header;
+    font-family: $monospace;
   }
 }
 
-#one, #three {
+#one, #three, #two, #four {
   padding: 15px;
+  h4 {
+    font-family: $eightbit;
+  }
 }
 
-#two, #four {
-  padding: 15px;
+
+#two {
+  h4 {
+    background-color: $yellow;
+  }
+  a {background-color: $pink;
+  }
+}
+
+#three {
+  h4 {
+    background-color: $green;
+  }
+}
+
+#four {
+  h4 {
+    background-color: $blue;
+  }
+  a {
+    background-color: $green;
+  }
 }
 
 #mockUps {

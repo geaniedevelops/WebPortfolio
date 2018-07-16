@@ -1,27 +1,34 @@
 @import '_variables.scss';
 
 body {
-  background-color: #f4ecec;
+  background-color: #FFF9FB;
   font-family: $body;
-}
+  max-height: 100vh;
+max-height: 100vh; }
+
 a, a:hover, a:active, a:default {
   text-decoration: none;
-  color: #A61C3C;
+  color: black;
+}
+
+  .flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100vh;  /*or use calc(100vh - header_height)*/
 }
 
 #profCol {
   // background-image: url('../assets/images/dotsbg.jpg');
-  background-color: #F4AC45;
+  background-color: $red;
   z-index: 2;
-  min-height: 100vh;
-  -webkit-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.4);
- -moz-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.4);
- box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
+  box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
+  max-height: 100vh;
   h3 {
     font-family: $header;
   }
   #button {
-    // background-color: rgba(166,28,60,.62);
     background-color: rgba(255,255,255,.6);
     width: 100%;
     margin: 5px 0px 5px 0px;
@@ -54,8 +61,8 @@ a, a:hover, a:active, a:default {
 }
 
 #one {
-  h2 {
-    font-family: $header;
+  b {
+    font-family: $title;
   }
 }
 
@@ -66,16 +73,16 @@ a, a:hover, a:active, a:default {
 }
 
 #one, #three {
-  // background-color: #FFF9FB;
+  background-color: #FFF9FB;
   padding: 15px;
 }
 
 #two, #four {
   padding: 15px;
   background-color: $blue;
-  -webkit-box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.4);
-  -moz-box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.4);
-  box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 24px -4px rgba(0,0,0,0.75);
 }
 
 #mockUps {

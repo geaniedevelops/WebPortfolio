@@ -17,9 +17,12 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Anton|Galada|Nanum+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Ubuntu+Mono" rel="stylesheet">
 
   <!-- Local Files -->
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/css/index.css">
+  <!-- <link rel="stylesheet" href="./styles/css/index2.css"> -->
+
 </head>
 
 <body>
@@ -29,15 +32,17 @@
       <center>
         <img src="./assets/images/Geanie.jpg" class="circle" id="profileImg" />
         <h3>Geanie Blanco</h3>
-        <a href="https://github.com/geanieblanco/" class="waves-effect btn-flat" id="button">GitHub</a><br>
-        <a href="https://www.linkedin.com/in/blancoregina/" class="waves-effect btn-flat" id="button">LinkedIn</a><br>
-        <a href="https://twitter.com/countfromzero" class="waves-effect btn-flat" id="button">Twitter</a><br>
+        <a href="https://github.com/geanieblanco/" class="btn-flat ghbtn" id="button">GitHub</a><br>
+        <a href="https://www.linkedin.com/in/blancoregina/" class="btn-flat libtn" id="button">LinkedIn</a><br>
+        <a href="https://twitter.com/countfromzero" class="btn-flat twtbtn" id="button">Twitter</a><br>
         <br>
         <span>
           <i class="fas fa-envelope-open"></i> geanieblanco@gmail.com
           <br>
           <i class="fas fa-mobile-alt"></i> (845)772-1821
         </span>
+        <!-- <a href="#" onclick="changeCSS('index.css', 0);" class="btn-flat">Classic</a>
+        <a href="#" onclick="changeCSS('index2.css', 0);" class="btn-flat">8-Bit</a> -->
       </center>
     </div>
 
@@ -91,7 +96,7 @@
           </div>
         </div>
         <center>
-          <h4 id="linkedin">Please view more by visiting my <a href="https://www.linkedin.com/in/blancoregina/">LinkedIn</a></h4></center>
+          <h5 id="linkedin">Please view more by visiting my <a href="https://www.linkedin.com/in/blancoregina/">LinkedIn</a></h5></center>
       </div>
 
       <!-- my stack row -->
@@ -169,5 +174,19 @@
     </div>
   </div>
 </body>
+
+<script>
+  function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheetLocal");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+  }
+</script>
 
 </html>
