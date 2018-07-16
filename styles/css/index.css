@@ -8,6 +8,7 @@ a, a:hover, a:active, a:default {
 
 #profCol {
   background-color: #F4AC45;
+  min-height: 100vh;
   -webkit-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.4);
   box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.4); }
@@ -26,6 +27,7 @@ a, a:hover, a:active, a:default {
   align: center; }
 
 #mainContent {
+  max-height: 100vh;
   overflow: auto; }
   #mainContent h3 {
     font-family: Galada, cursive; }
