@@ -12,8 +12,7 @@ a, a:hover, a:active, a:default {
 #profCol {
   // background-image: url('../assets/images/dotsbg.jpg');
   background-color: #F4AC45;
-  z-index: 2;
-  min-height: 100vh;
+  // min-height: 100vh;
   -webkit-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.4);
  -moz-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.4);
  box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.4);
@@ -37,9 +36,9 @@ a, a:hover, a:active, a:default {
  }
 
  #mainContent {
-   max-height: 100vh;
+   // max-height: 100vh;
    overflow: auto;
-   h2 {
+   h3 {
      font-family: $header;
    }
    h4 {

@@ -28,7 +28,7 @@
 <body>
   <div class="row flex">
     <!-- left column -->
-    <div class="col s12 m4 l3" id="profCol">
+    <div class="col s12 m12 l3" id="profCol">
       <center>
         <img src="./assets/images/Geanie.jpg" class="circle" id="profileImg" />
         <h3>Geanie Blanco</h3>
@@ -47,18 +47,18 @@
     </div>
 
     <!-- main column -->
-    <div class="col s12 m9" id="mainContent">
+    <div class="col s12 m12" id="mainContent">
 
       <!-- profile row -->
       <div class="row content" id="one">
-        <h2>Welcome, I'm Geanie!</h2>
+        <h3>Welcome, I'm Geanie!</h3>
         <div class="row">
-          <div class="col s12 m8">
+          <div class="col s12 m12 l8">
             <p>I am an amateur mobile and web developer seeking exciting employment that can help make a difference in the world. I have experience in both mobile and web development, as well as a strong interest in technical project management. I am looking
               to make an impact on the small business environment through accessible and customized tech. In addition I am interested in progressive web applications, cross platform mobile development, and tech for charity. I value meaningful collaboration
               and cohesive, simple UI. My personal hobbies include cooking, local music, history documentaries, and becoming fluent in High Valyrian. </p>
           </div>
-          <div class="col s12 m4">
+          <div class="col s12 m12 l4">
             <span><b>Education</b>
             <br>
           BA- Communication Studies
@@ -76,7 +76,7 @@
       <div class="row content" id="two">
         <h4>Professional Experience</h4>
         <div class="row">
-          <div class="col s12 m6">
+          <div class="col s12 m12 l6">
             <h5>Vans | Jersey City, NJ</h5>
             <p><em>Sales & Visuals Associate, Aug. 2017-Present</em></p>
             <ul>
@@ -85,7 +85,7 @@
               <li>Staged window and tabletop visuals according to corporate guidelines while ensuring employee and customer safety.</li>
             </ul>
           </div>
-          <div class="col s12 m6">
+          <div class="col s12 m12 l6">
             <h5>A to Z Media | New York, NY</h5>
             <p><em>Jr. Production & Office Manager, Feb. 2016 - Dec. 2016</em></p>
             <ul>
@@ -103,7 +103,7 @@
       <div class="row content" id="three">
         <h4>Skills & Stack</h4>
         <div class="row">
-          <div class="col s6 m3">
+          <div class="col s12 s12 l6">
             <h7>Languages:</h7>
             <ul>
               <li>HTML5</li>
@@ -116,7 +116,7 @@
               <li>Handlebars</li>
             </ul>
           </div>
-          <div class="col s6 m3">
+          <div class="col s12 s12 l6">
             <h7>Frameworks:</h7>
             <ul>
               <li>React</li>
@@ -126,7 +126,7 @@
               <li>Agile/SCRUM Methods</li>
             </ul>
           </div>
-          <div class="col s6 m3">
+          <div class="col s12 s12 l6">
             <h7>Programs:</h7>
             <ul>
               <li>Atom</li>
@@ -140,7 +140,7 @@
               <li>Mac Professional Suite</li>
             </ul>
           </div>
-          <div class="col s6 m3">
+          <div class="col s12 s12 l6">
             <h7>Professional:</h7>
             <ul>
               <li>Public Speaking</li>
@@ -159,11 +159,11 @@
       <div class="row content" id="four">
         <h4>StreetScape</h4>
         <div class="row">
-          <div class="col s12 m6">
+          <div class="col s12 m12 l6">
             <img src="./assets/images/protoMock.png" id="mockUps" />
             <p>Launch Site: <a href="http://www.streetscape.io">Streetscape.io</a></p>
           </div>
-          <div class="col s12 m6">
+          <div class="col s12 m12 l6">
             <p>StreetScape is an in-development mobile app built cross-platform with React Native, AWS, and Firebase. StreetScape began as a winning hackathon project called Soteria. The app's main focus is a crowdsourced database of real time pedestrian
               safety hazards. We are set to launch in the fall of 2018. </p>
             <p>I have taken on the role of CEO following my position as team leader and project manager at the Hackathon. This project has exposed me to a world of skills and challenges that has honed my creative problem solving and management skills, but
@@ -174,19 +174,5 @@
     </div>
   </div>
 </body>
-
-<script>
-  function changeCSS(cssFile, cssLinkIndex) {
-
-    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
-
-    var newlink = document.createElement("link");
-    newlink.setAttribute("rel", "stylesheetLocal");
-    newlink.setAttribute("type", "text/css");
-    newlink.setAttribute("href", cssFile);
-
-    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
-  }
-</script>
 
 </html>
