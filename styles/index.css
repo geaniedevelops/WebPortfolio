@@ -5,7 +5,8 @@ body {
   max-height: 100vh; }
 
 a, a:hover, a:active, a:default {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 .flex {
   display: flex;
@@ -20,7 +21,7 @@ a, a:hover, a:active, a:default {
   -moz-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.75);
   max-height: 100vh; }
-  #profCol h4 {
+  #profCol h3 {
     font-family: Galada, cursive; }
   #profCol #button {
     background-color: rgba(255, 255, 255, 0.6);

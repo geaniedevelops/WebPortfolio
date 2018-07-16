@@ -8,6 +8,7 @@ max-height: 100vh; }
 
 a, a:hover, a:active, a:default {
   text-decoration: none;
+  color: black;
 }
 
   .flex {
@@ -24,7 +25,7 @@ a, a:hover, a:active, a:default {
   -moz-box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
   box-shadow: 6px 0px 24px -4px rgba(0,0,0,0.75);
   max-height: 100vh;
-  h4 {
+  h3 {
     font-family: $header;
   }
   #button {
