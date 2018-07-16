@@ -17,9 +17,6 @@ a, a:hover, a:active, a:default {
 #profCol {
   background-color: #C5283D;
   z-index: 2;
-  -webkit-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.75);
   max-height: 100vh; }
   #profCol h3 {
     font-family: Galada, cursive; }
@@ -39,7 +36,10 @@ a, a:hover, a:active, a:default {
   max-height: 100vh;
   overflow: auto; }
   #mainContent h2 {
-    font-family: Galada, cursive; }
+    font-family: Galada, cursive;
+    background-color: green;
+    padding-top: 10px;
+    padding-left: 10px; }
   #mainContent h4 {
     font-family: Anton, sans-serif; }
 
@@ -53,17 +53,12 @@ a, a:hover, a:active, a:default {
   font-family: Galada, cursive; }
 
 #one, #three {
-  background-color: #FFF9FB;
   padding: 15px; }
 
 #two, #four {
-  padding: 15px;
-  background-color: #4B88A2;
-  -webkit-box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.75); }
+  padding: 15px; }
 
 #mockUps {
   width: 100%; }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index2.css.map */

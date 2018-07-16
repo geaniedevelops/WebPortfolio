@@ -1,0 +1,60 @@
+body {
+  background-color: #f4ecec;
+  font-family: Nanum Gothic, sans-serif; }
+
+a, a:hover, a:active, a:default {
+  text-decoration: none;
+  color: #A61C3C; }
+
+#profCol {
+  background-color: #F4AC45;
+  z-index: 2;
+  min-height: 100vh;
+  -webkit-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 0px 24px -4px rgba(0, 0, 0, 0.4); }
+  #profCol h3 {
+    font-family: Galada, cursive; }
+  #profCol #button {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    margin: 5px 0px 5px 0px; }
+
+#profileImg {
+  width: 70%;
+  height: auto;
+  margin-top: 40px;
+  border: 5px solid #000000;
+  align: center; }
+
+#mainContent {
+  max-height: 100vh;
+  overflow: auto; }
+  #mainContent h2 {
+    font-family: Galada, cursive; }
+  #mainContent h4 {
+    font-family: Anton, sans-serif; }
+
+#content p {
+  margin-left: 5px; }
+
+#one b {
+  font-family: Anton, sans-serif; }
+
+#two #linkedin {
+  font-family: Galada, cursive; }
+
+#one, #three {
+  padding: 15px; }
+
+#two, #four {
+  padding: 15px;
+  background-color: #92BFB1;
+  -webkit-box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 24px -4px rgba(0, 0, 0, 0.4); }
+
+#mockUps {
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */
