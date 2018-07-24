@@ -6,7 +6,8 @@ body {
 
 a, a:hover, a:active, a:default {
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-family: "Ubuntu Mono", monospace; }
 
 #profCol {
   background-color: #E8E8E8;
@@ -14,16 +15,26 @@ a, a:hover, a:active, a:default {
   min-height: 100vh; }
   #profCol h3 {
     font-family: "Press Start 2P", cursive; }
-  #profCol #button {
+  #profCol Button {
     background-color: rgba(255, 255, 255, 0.6);
+    border: 5px solid;
     width: 100%;
-    margin: 5px 0px 5px 0px; }
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Ubuntu Mono", monospace; }
+  #profCol #ghbtn:hover {
+    border-color: #FF6BEB; }
+  #profCol #libtn:hover {
+    border-color: #89FF77; }
+  #profCol #twtbtn:hover {
+    border-color: #5DEAE5; }
 
 #profileImg {
   width: 70%;
   height: auto;
   margin-top: 40px;
-  border: 5px solid #000000;
+  border: 5px solid black;
   align: center; }
 
 #mainContent {
@@ -41,7 +52,9 @@ a, a:hover, a:active, a:default {
 #one, #three, #two, #four {
   padding: 15px; }
   #one h4, #three h4, #two h4, #four h4 {
-    font-family: "Press Start 2P", cursive; }
+    font-family: "Press Start 2P", cursive;
+    padding-top: 10px;
+    padding-left: 10px; }
 
 #two h4 {
   background-color: #FFEF60; }
