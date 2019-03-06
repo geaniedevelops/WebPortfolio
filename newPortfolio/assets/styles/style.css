@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700|Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700|Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700|Press+Start+2P");
+body {
+  font-size: 13px; }
+  body p {
+    padding: 5px; }
+
+main {
+  margin-top: 12vh; }
+
+nav i {
+  color: white; }
+
+.navbar {
+  transition: 500ms ease;
+  background: transparent; }
+  .navbar a {
+    font-family: "Press Start 2P", cursive;
+    color: #e8e8e8;
+    align-content: center; }
+
+.navbar.scrolled {
+  background: rgba(246, 73, 203, 0.445); }
+  .navbar.scrolled a {
+    color: white; }
+
+#home {
+  margin-top: 5vh; }
+  #home p, #home span {
+    padding: 5px;
+    font-family: "Nanum Gothic Coding", monospace; }
+  #home h3, #home h4 {
+    font-family: "Press Start 2P", cursive;
+    padding: 10px; }
+  #home h3 {
+    background-color: #89ff77; }
+  #home a {
+    color: #ff6beb; }
+  #home img {
+    margin: 10px; }
+
+#about {
+  margin-top: 5vh; }
+  #about p, #about span {
+    padding: 5px;
+    font-family: "Nanum Gothic Coding", monospace; }
+  #about h3, #about h4 {
+    font-family: "Press Start 2P", cursive;
+    padding: 10px; }
+  #about h3 {
+    background-color: #ff6beb; }
+  #about #skills {
+    background-color: #5deae5; }
+  #about #goals {
+    background-color: #89ff77; }
+  #about #innerrow {
+    margin-top: 5vh; }
+
+#skills #stack p {
+  background-color: #ff6beb; }
+
+#projects {
+  margin-top: 5vh; }
+  #projects p, #projects span {
+    padding: 5px;
+    font-family: "Nanum Gothic Coding", monospace; }
+  #projects h3, #projects h4 {
+    font-family: "Press Start 2P", cursive;
+    padding: 10px; }
+  #projects h3 {
+    background-color: #ffef60; }
+
+#headline {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: bold;
+  font-size: 15px; }
+
+#italicized {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-style: italic; }
+
+#footer {
+  height: 20vh;
+  margin-top: 5vh;
+  background-color: #5deae5; }
+
+.card {
+  margin-top: 10px; }
+  .card h5 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 15px; }
+
+#contact {
+  margin-top: 2.5vh; }
+
+#icon {
+  font-size: 45px;
+  padding: 10px;
+  color: #ff6beb; }
+
+#iconSmall {
+  font-size: 20px;
+  padding: 10px;
+  color: #ffef60; }
+
+/*# sourceMappingURL=style.css.map */
