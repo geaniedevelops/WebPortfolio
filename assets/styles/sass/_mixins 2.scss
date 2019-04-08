@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700|Press+Start+2P');
+
+@mixin generic {
+    margin-top: 5vh;
+    p, span {
+        padding: 5px;
+        font-family: $body;
+    }
+    h3, h4 {
+        font-family: $title;
+        padding: 10px;
+    }
+}
+
+@mixin headline {
+    font-family: $body;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@mixin italicized {
+    font-family: $body;
+    font-style: italic;
+}
